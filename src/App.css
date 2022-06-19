@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+
+:root {
+  --maxWidth: 1200px;
+  --white: #fff;
+  --main-color: #660066;
+  --sec-color: #F2C94C;
+  --medGrey: #979797;
+  --darkGrey: #323232;
+  --black: #000;
+  --fontSuperBig: 2.5rem;
+  --fontBig: 1.5rem;
+  --fontMed: 1.2rem;
+  --fontSmall: .8rem;
+  
+}
+*, 
+*::after, 
+*::before{
+  --webkit-box-sizing: border-box;
+  --moz-box-sizing: border-box;
+      box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+body{
+  margin: 0;
+  padding: 0;
+ 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* ====General fonts styles=== */
+
+h2{
+    font-size: var(--fontSuperBig);
+    font-weight: 700;
+    color: var(--black);
+}
+h3{
+    font-size:var(--fontBig);
+    font-weight: 700;
+    color: var(--black);    
+}
+
+h4{
+  font-size: var(--fontMed);
+  font-weight: 500;
+    color: var(--black);   
+}
+
+p{
+    font-size: var(--fontSmall);
+    font-weight: 400;
+    color: var(--black);
+}
+
+
+/* ===General Image Animation=== */
+img{
+  animation: animateallimage 1s;
+  @keyframes animateallimage {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
