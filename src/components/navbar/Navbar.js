@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import { BsMenuButtonWide, BsXLg } from "react-icons/bs";
+import { BsXLg } from "react-icons/bs";
+import { BiMenu } from "react-icons/bi";
 
 // Styles
 import { Wrapper, Content, NavBars } from "./Navbar.styles";
@@ -36,7 +37,7 @@ function Navbar() {
           <BsXLg className="closeMenu " onClick={ShowNavbar} />
         </NavBars>
         <main>
-          <BsMenuButtonWide className="menuIcon" onClick={ShowNavbar} />
+          <BiMenu className="menuIcon" onClick={ShowNavbar} />
         </main>
       </Content>
     </Wrapper>

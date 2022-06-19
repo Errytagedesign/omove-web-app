@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   position: relative;
   width: 100%;
   display: flex;
-  background: var(--medGrey);
+  background: #393939;
   align-items: center;
   justify-content: space-around;
 

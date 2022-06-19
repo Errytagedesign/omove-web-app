@@ -14,8 +14,8 @@ function Footer() {
         </section>
         <section>
           <h3> Contact us: </h3>
-          <Link href="mailto: errytage@gmail.com">errytage@gmail.com ||</Link>
-          <Link href="tel: +2348095342136">08095342136</Link>
+          <Link to="mailto: errytage@gmail.com">errytage@gmail.com ||</Link>
+          <Link to="tel: +2348095342136">08095342136</Link>
         </section>
       </Content>
     </Wrapper>
