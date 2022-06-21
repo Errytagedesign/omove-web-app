@@ -55,6 +55,29 @@ p{
     color: var(--black);
 }
 
+a{
+  text-decoration: none !important;
+}
+
+
+
+/* ====General Button styles=== */
+.Btns{
+  background-color: var(--main-color);
+  box-shadow: 0px 24px 48px rgba(27, 44, 193, 0.1);
+  border: none;
+border-radius: 4px;
+padding: 1em 2em;
+}
+
+.Btns a{
+  color: #fff;
+}
+
+.Btns:hover{
+  transform: scale(1.1);
+  background-color: var(--sec-color);
+}
 
 /* ===General Image Animation=== */
 img{
