@@ -88,14 +88,18 @@ function Home() {
             <h2> Why Ride With Omove</h2>{" "}
             <p>The best way to travel to your destination</p>
           </section>
-          {WhyRideData.map((ride) => (
-            <WhyRide
-              key={ride.id}
-              title={ride.title}
-              desc={ride.desc}
-              image={ride.imgSrc}
-            />
-          ))}
+          <main className="d-flex flex-wrap justify-content-between">
+            {WhyRideData.map((ride) => (
+              <article className="col-12 col-md-5">
+                <WhyRide
+                  key={ride.id}
+                  title={ride.title}
+                  desc={ride.desc}
+                  image={ride.imgSrc}
+                />
+              </article>
+            ))}
+          </main>
         </main>
         {/* End of Why Ride with Omove*/}
       </main>
