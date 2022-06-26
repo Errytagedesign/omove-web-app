@@ -39,7 +39,7 @@ h2{
 }
 h3{
     font-size:var(--fontBig);
-    font-weight: 700;
+    font-weight: 500;
     color: var(--black);    
 }
 
