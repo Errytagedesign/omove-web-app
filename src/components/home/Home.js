@@ -14,6 +14,8 @@ import Delivery from "../../assets/Omove-Del-Services.jpg";
 import Hailing from "../../assets/Omove-Ride-hailing.jpeg";
 import WhyRide from "../whyRide/WhyRide";
 import { WhyRideData } from "../whyRide/WhyRideData";
+import Playstore from "../../assets/Playstore.png";
+import Appstore from "../../assets/Appstore.png";
 
 function Home() {
   return (
@@ -88,6 +90,7 @@ function Home() {
             <h2> Why Ride With Omove</h2>{" "}
             <p>The best way to travel to your destination</p>
           </section>
+
           <main className="d-flex flex-wrap justify-content-between">
             {WhyRideData.map((ride) => (
               <article className="col-12 col-md-5">
@@ -102,6 +105,13 @@ function Home() {
           </main>
         </main>
         {/* End of Why Ride with Omove*/}
+        {/* Start of book a trip*/}
+        <section className=" mt-5 keke container d-flex flex-column align-center text-center mb-4">
+          {" "}
+          <h2> Book a delivery or trip from the app</h2>{" "}
+          <p>Download the app for great deals and ease of movement</p>
+        </section>
+        {/* End of book a trip*/}
       </main>
     </Wrapper>
   );
