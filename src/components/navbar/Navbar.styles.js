@@ -55,6 +55,7 @@ export const Content = styled.div`
 `;
 
 export const NavBars = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -100,10 +101,10 @@ export const NavBars = styled.div`
     flex-direction: column;
     background: #fff;
     border: solid 1px red;
-    padding: 2.5em;
+    /* padding: 2.5em; */
     transition: 350ms;
     z-index: 200;
-    padding-bottom: 5em;
+    /* padding-bottom: 5em; */
 
     .navItems {
       font-size: 1.15rem;

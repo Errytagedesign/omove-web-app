@@ -81,14 +81,21 @@ padding: 1em 2em;
 
 /* ===General Image Animation=== */
 img{
-  animation: animateallimage 1s;
-  @keyframes animateallimage {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+  transition: all 0.3s;
+  animation: animateallPic 0.5s;
+  
+}
+
+img:hover {
+  opacity: 0.8;
+}
+
+@keyframes animateallPic {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 

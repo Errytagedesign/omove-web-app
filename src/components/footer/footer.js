@@ -9,7 +9,7 @@ import { Wrapper, Content, NavBars } from "./footer.styles";
 function Footer() {
   return (
     <Wrapper>
-      <Content>
+      <Content className="container">
         <NavBars>
           <section className="OrderLogo">
             <Link to="#">

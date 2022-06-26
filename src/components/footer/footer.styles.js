@@ -16,7 +16,6 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 100%;
   display: flex;
   flex-direction: column;
   padding: 1em;
@@ -58,7 +57,7 @@ export const Content = styled.div`
 `;
 
 export const NavBars = styled.div`
-  width: 78%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -66,6 +65,14 @@ export const NavBars = styled.div`
   justify-content: space-between;
   cursor: pointer;
   margin: 3em auto;
+
+  .Btns {
+    background-color: #fff;
+  }
+
+  .Btns a {
+    color: var(--main-color);
+  }
 
   .navItems {
     color: #fff;
