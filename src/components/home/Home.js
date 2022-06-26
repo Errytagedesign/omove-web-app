@@ -12,6 +12,8 @@ import Googledoc from "../../assets/googledoc.png";
 import Trip from "../../assets/trip.png";
 import Delivery from "../../assets/Omove-Del-Services.jpg";
 import Hailing from "../../assets/Omove-Ride-hailing.jpeg";
+import WhyRide from "../whyRide/WhyRide";
+import { WhyRideData } from "../whyRide/WhyRideData";
 
 function Home() {
   return (
@@ -86,6 +88,14 @@ function Home() {
             <h2> Why Ride With Omove</h2>{" "}
             <p>The best way to travel to your destination</p>
           </section>
+          {WhyRideData.map((ride) => (
+            <WhyRide
+              key={ride.id}
+              title={ride.title}
+              desc={ride.desc}
+              image={ride.imgSrc}
+            />
+          ))}
         </main>
         {/* End of Why Ride with Omove*/}
       </main>
