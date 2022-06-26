@@ -12,7 +12,7 @@ function Hero() {
   return (
     <Wrapper>
       <Content>
-        <section className="container  d-flex flex-column flex-md-row ">
+        <section className=" d-flex flex-column flex-md-row ">
           <section className="col-12 col-md-6 order-md-2 ">
             {" "}
             <img
