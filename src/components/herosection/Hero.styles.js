@@ -57,7 +57,7 @@ export const Content = styled.div`
 
   @media screen and (min-width: 900px) {
     section h2 {
-      font-size: 3.5rem;
+      font-size: 5rem;
       margin-bottom: 1.3em;
     }
 
