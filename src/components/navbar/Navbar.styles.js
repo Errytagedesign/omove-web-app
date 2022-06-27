@@ -100,8 +100,8 @@ export const NavBars = styled.div`
     /* right: 0; */
     flex-direction: column;
     background: #fff;
-    border: solid 1px red;
-    /* padding: 2.5em; */
+    /* border: solid 1px red; */
+    padding: 1.3em;
     transition: 350ms;
     z-index: 200;
     /* padding-bottom: 5em; */
