@@ -126,7 +126,7 @@ function Home() {
 
         {/*  Start of Support section */}
         <main className=" Support d-flex flex-column flex-md-row mt-5 mb-3 justify-content-between ">
-          <section className="me-5 d-flex flex-row justify-content-between align-items-center mb-5">
+          <section className="me-0 me-md-5 d-flex flex-row justify-content-between align-items-center mb-5">
             <div className="col-3">
               <img className=" col-12" src={Support} alt="" />
             </div>
@@ -138,7 +138,7 @@ function Home() {
               </p>
             </div>
           </section>
-          <section className="me-5 d-flex flex-row justify-content-between align-items-center mb-5">
+          <section className="me-0 me-md-5 d-flex flex-row justify-content-between align-items-center mb-5">
             <div className="col-3">
               <img className=" col-12" src={Safety} alt="" />
             </div>
@@ -154,7 +154,7 @@ function Home() {
             <div className="col-3">
               <img className=" col-12" src={Rating} alt="" />
             </div>
-            <div className="d-flex flex-column col-8">
+            <div className="d-flex flex-column m-0 col-8">
               <h4>Top Rated Drivers</h4>
               <p>
                 All our driver-partners are background verified and trained to

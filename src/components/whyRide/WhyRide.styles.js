@@ -17,9 +17,10 @@ export const Wrapper = styled.div`
     margin-bottom: 0;
   }
 
-  /* .Ride img {
-    height: 150px;
-  } */
+  .Ride img {
+    width: 108px
+    height: 100px;
+  }
 
   @media screen and (min-width: 768px) {
     .Ride h4 {
