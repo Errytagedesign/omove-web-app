@@ -21,7 +21,7 @@ function Footer() {
             </Link>
           </section>
           {/* Nav Items */}
-          <section className="d-flex flex-row col-12 col-md-7 justify-content-between ">
+          <section className="d-flex flex-row col-12 col-md-4 justify-content-between ">
             <Link to="#">
               <h3 className="navItems ">About</h3>
             </Link>

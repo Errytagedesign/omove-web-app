@@ -16,6 +16,10 @@ import WhyRide from "../whyRide/WhyRide";
 import { WhyRideData } from "../whyRide/WhyRideData";
 import Playstore from "../../assets/Playstore.png";
 import Appstore from "../../assets/Appstore.png";
+import Phone from "../../assets/AppPhones.png";
+import Support from "../../assets/phone.png";
+import Safety from "../../assets/saftey.png";
+import Rating from "../../assets/rating.png";
 
 function Home() {
   return (
@@ -24,7 +28,7 @@ function Home() {
 
       <main className=" container d-flex flex-column">
         {/*  Start of download the app section */}
-        <main className=" container d-flex flex-column flex-md-row mt-5">
+        <main className=" DownloadApp container d-flex flex-column flex-md-row mt-5">
           <section className=" container d-flex flex-column align-center text-center mb-4 col-12 col-md-3 ">
             <img src={Download} alt="" />
             <h3>Download the App</h3>
@@ -106,12 +110,60 @@ function Home() {
         </main>
         {/* End of Why Ride with Omove*/}
         {/* Start of book a trip*/}
-        <section className=" mt-5 keke container d-flex flex-column align-center text-center mb-4">
+        <section className=" mt-5 keke container d-flex flex-column align-center text-center mb-1">
           {" "}
           <h2> Book a delivery or trip from the app</h2>{" "}
           <p>Download the app for great deals and ease of movement</p>
         </section>
+        <article className="store d-flex flex-row mx-auto justify-content-around">
+          <img className="mx-auto img-fluid me-2" src={Playstore} alt="" />
+          <img className=" mx-auto img-fluid" src={Appstore} alt="" />
+        </article>
+        <artticle className="MobilePhone d-flex flex-row justify-content-center">
+          <img className="col-12" src={Phone} alt="" />
+        </artticle>
         {/* End of book a trip*/}
+
+        {/*  Start of Support section */}
+        <main className=" Support d-flex flex-column flex-md-row mt-5 mb-3 justify-content-between ">
+          <section className="me-5 d-flex flex-row justify-content-between align-items-center mb-5">
+            <div className="col-3">
+              <img className=" col-12" src={Support} alt="" />
+            </div>
+            <div className="d-flex flex-column col-8">
+              <h4>24/7 Customer Support</h4>
+              <p>
+                GA dedicated 24x7 customer support team always at your service
+                to help solve any problem
+              </p>
+            </div>
+          </section>
+          <section className="me-5 d-flex flex-row justify-content-between align-items-center mb-5">
+            <div className="col-3">
+              <img className=" col-12" src={Safety} alt="" />
+            </div>
+            <div className="d-flex flex-column col-8">
+              <h4>Your Safety First</h4>
+              <p>
+                Keep your loved ones informed about your travel routes or call
+                emergency services when in need
+              </p>
+            </div>
+          </section>
+          <section className=" d-flex flex-row justify-content-between align-items-center mb-5">
+            <div className="col-3">
+              <img className=" col-12" src={Rating} alt="" />
+            </div>
+            <div className="d-flex flex-column col-8">
+              <h4>Top Rated Drivers</h4>
+              <p>
+                All our driver-partners are background verified and trained to
+                deliver only the best experience
+              </p>
+            </div>
+          </section>
+        </main>
+        {/*  End of Support section */}
       </main>
     </Wrapper>
   );
